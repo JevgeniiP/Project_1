@@ -9,29 +9,28 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 
-<body>
-  <div class="page">
-    <!--!Начало блока "Header"-->
-    <header class="header">
-      <div class="header__margin_left">
-        <img class="logo_place_header" src="/images/logo_place_header.svg" alt="Oops">
+<body class="page">
+  <!--!Начало блока "Header"-->
+  <header class="header">
+    <div class="header__margin_left">
+      <img class="logo_place_header" src="/images/logo_place_header.svg" alt="Oops">
+    </div>
+    <div class="header__title_flex-box header__margin_left">
+      <h1 class="header__title">Научиться учиться</h1>
+    </div>
+    <div class="header__subtitle header__margin_left">
+      <h2 class="header__subtitle_text">Какие современные и эффективные подходы к обучению вы можете использовать в
+        своей жизни? <a class="header__subtitle_link" href="#">Узнать?</a></h2>
+    </div>
+    <section>
+      <div class="header__main-illustration">
+        <img class="header__main-illustration_img" src="/images/header-image.png" alt="Oops">
       </div>
-      <div class="header__title_flex-box header__margin_left">
-        <h1 class="header__title">Научиться учиться</h1>
-      </div>
-      <div class="header__subtitle header__margin_left">
-        <h2 class="header__subtitle_text">Какие современные и эффективные подходы к обучению вы можете использовать в
-          своей жизни? <a class="header__subtitle_link" href="#">Узнать?</a></h2>
-      </div>
-      <section>
-        <div class="header__main-illustration">
-          <img class="header__main-illustration_img" src="/images/header-image.png" alt="Oops">
-        </div>
-        <div class="header__squarepic"></div>
-      </section>
-    </header>
-    <!--!Начало блока "Description" -->
-
+      <div class="header__squarepic"></div>
+    </section>
+  </header>
+  <!--!Начало блока "Description" -->
+  <main>
     <section class="description">
       <div class="two-columns">
         <div class="two-columns__brief">Главные проблемы в обучении</div>
@@ -76,7 +75,8 @@
         </div>
         <div class="table__cell">
           <div class="table__heading">420 миллионов</div>
-          <div class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</div>
+          <div class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
+          </div>
           <div class="table__text">Всемирный Банк, 2017</div>
         </div>
         <div class="table__cell">
@@ -140,7 +140,8 @@
         </div>
         <div class="table__cell table__cell_theme_dark">
           <div class="table__heading table__heading_theme_dark">9</div>
-          <div class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.
+          <div class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными
+            интервалами.
           </div>
         </div>
         <div class="table__cell table__cell_theme_dark">
@@ -149,12 +150,35 @@
         </div>
       </div>
     </section>
-    </main>
-    <!--!Начало блока "Footer"-->
-    <footer class="footer">
-
-    </footer>
-  </div>
+  </main>
+  <!--!Начало блока "Footer"-->
+  <footer class="footer">
+    <div class="footer__columns">
+      <div class="footer__column_content_copyright">
+        <img class="logo_place_footer" src="/images/logo_place_footer.svg" alt="Oops">
+        <div class="footer__author">&copy2021. Jevgenii</div>
+      </div>
+      <div class="footer__content_info">
+        <div class="footer__column-heading">О Практикуме</div>
+        <div class="footer__column-links">
+          <a class="footer__column-link" href="#">Главная</a>
+          <a class="footer__column-link" href="#">Концепция</a>
+          <a class="footer__column-link" href="#">Наставники</a>
+        </div>
+      </div>
+      <div class="footer__column_content_social">
+        <div class="footer__column-heading">Соцсети</div>
+        <div class="footer__column-links">
+          <a class="footer__column-link" href="#"><img class="footer__social-icon"
+              src="/images/facebook_color_white.svg" alt="Oops">Facebook</a>
+          <a class="footer__column-link" href="#"><img class="footer__social-icon" src="/images/vk_color_white.svg"
+              alt="Oops">Вконтакте</a>
+          <a class="footer__column-link" href="#"> <img class="footer__social-icon"
+              src="/images/instagram_color_white.svg" alt="Oops">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
